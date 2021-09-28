@@ -26,3 +26,5 @@ INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prer
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 2', 'Neste capítulo vamos continuar', 2, 'https://c.pxhere.com/images/3a/c9/b759c4df41afe66007012bf12d6f-1437855.jpg!d', 1, 1);
 INSERT INTO tb_section (title, description, position, img_Uri, resource_id, prerequisite_id) VALUES ('Capítulo 3', 'Neste capítulo vamos finalizar', 3, 'https://c.pxhere.com/images/3a/c9/b759c4df41afe66007012bf12d6f-1437855.jpg!d', 1, 2);
 
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (1, 1,'2020-11-13T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment (user_id, offer_id, enroll_Moment, refund_Moment, available, only_Update) VALUES (2, 1,'2020-11-13T13:00:00Z', null, true, false);
